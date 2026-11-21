@@ -4,7 +4,7 @@ import { execAsync } from "ags/process";
 export const Weather = createPoll("☀️ --°C", 600000, async () => {
   try {
     const url =
-      "https://api.open-meteo.com/v1/forecast?latitude=41.0207&longitude=28.585&current=temperature_2m,is_day,precipitation,rain,snowfall,cloud_cover&forecast_days=1";
+      "https://api.open-meteo.com/v1/forecast?latitude=41.0082&longitude=28.9784&current=temperature_2m,is_day,precipitation,rain,snowfall,cloud_cover&forecast_days=1";
     const res = await execAsync(["curl", "-s", url]);
     const data = JSON.parse(res);
     const {
