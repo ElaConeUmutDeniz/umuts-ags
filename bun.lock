@@ -1,0 +1,18 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "ags-config",
+      "dependencies": {
+        "ags": "github:aylur/ags",
+        "gnim": "*",
+      },
+    },
+  },
+  "packages": {
+    "ags": ["ags@github:aylur/ags#bbee2f1", { "peerDependencies": { "gnim": "^1.9.1" } }, "Aylur-ags-bbee2f1", "sha512-OVpsVyy/+56B5qxKBfOE7la7FqtJ9dyAjkmIOV9CHGL4V8cxdevdugm2UOlGffoTyXUJH5R4byMkQqvbRgRcBw=="],
+
+    "gnim": ["gnim@1.9.1", "", {}, "sha512-WttkzzZg17qrJKGk87HlE1zHKUdYoimSqjmsULt4C6DNq3JfYSPhYNjwUjBMHFpzZMbyUVHgpTTW6IIehme9tQ=="],
+  }
+}

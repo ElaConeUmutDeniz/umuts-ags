@@ -1,0 +1,7 @@
+{
+  "name": "ags-config",
+  "dependencies": {
+    "ags": "github:aylur/ags",
+    "gnim": "*"
+  }
+}
