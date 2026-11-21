@@ -20,9 +20,10 @@ export default function Desktop(gdkmonitor: Gdk.Monitor) {
       keymode={Astal.Keymode.NONE}
       gdkmonitor={gdkmonitor}
     >
+      
       <box 
         css={`
-          background-image: url('file:///home/umut/Rice/23.jpg'); 
+          background-image: url('https://cdns3.royaleapi.com/cdn-cgi/image/w=150,h=180,format=auto/static/img/cards/v11-a8e42334/hog-rider.png'); 
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
